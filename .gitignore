@@ -1,0 +1,58 @@
+# ===============================
+# Visual Studio / VS Code
+# ===============================
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ===============================
+# Build outputs
+# ===============================
+bin/
+obj/
+**/bin/
+**/obj/
+
+# ===============================
+# .NET
+# ===============================
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# ===============================
+# NuGet
+# ===============================
+*.nupkg
+.nuget/
+packages/
+
+# ===============================
+# Docker
+# ===============================
+**/docker-compose.override.yml
+**/docker-compose.local.yml
+
+# ===============================
+# Environment files / secrets
+# ===============================
+.env
+appsettings.Development.json
+appsettings.Local.json
+
+# ===============================
+# SQL Server / LocalDB
+# ===============================
+*.mdf
+*.ldf
+
+# ===============================
+# OS generated
+# ===============================
+Thumbs.db
+.DS_Store
